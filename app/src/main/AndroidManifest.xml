@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homeworks">
         <activity
+            android:name=".lesson3.MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
