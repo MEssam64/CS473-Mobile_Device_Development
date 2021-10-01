@@ -29,11 +29,11 @@ class Problem1 : AppCompatActivity() {
 
             val textViewAndroidVersion = TextView(this)
             textViewAndroidVersion.text = txtAndroidVersion.text
-            textViewAndroidVersion.setBackgroundColor(R.color.purple_200)
+            textViewAndroidVersion.setBackgroundColor(R.color.purple)
 
             val textViewAndroidCodeName = TextView(this)
             textViewAndroidCodeName.text = txtAndroidCodeName.text
-            textViewAndroidCodeName.setBackgroundColor(R.color.purple_200)
+            textViewAndroidCodeName.setBackgroundColor(R.color.purple)
 
             tableRow.addView(textViewAndroidVersion, 0)
             tableRow.addView(textViewAndroidCodeName, 1)

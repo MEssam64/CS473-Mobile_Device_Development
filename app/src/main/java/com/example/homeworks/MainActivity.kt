@@ -20,5 +20,8 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this, com.example.homeworks.lesson4.Problem1::class.java)
         startActivity(intent)
     }
-    fun btnLesson4P2Click(view: android.view.View) {}
+    fun btnLesson4P2Click(view: android.view.View) {
+        var intent = Intent(this, com.example.homeworks.lesson4.Problem2::class.java)
+        startActivity(intent)
+    }
 }

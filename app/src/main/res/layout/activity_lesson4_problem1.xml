@@ -35,25 +35,25 @@
     <TableRow android:padding="5dp">
         <TextView
             android:text="Version"
-            android:background="@color/purple_200" />
+            android:background="@color/purple" />
         <TextView
             android:text="Code Name"
-            android:background="@color/purple_200" />
+            android:background="@color/purple" />
     </TableRow>
     <TableRow android:padding="5dp">
         <TextView
             android:text="Android 9"
-            android:background="@color/purple_200" />
+            android:background="@color/purple" />
         <TextView
             android:text="Pie"
-            android:background="@color/purple_200" />
+            android:background="@color/purple" />
     </TableRow>
     <TableRow android:padding="5dp">
         <TextView
             android:text="Android 8"
-            android:background="@color/purple_200" />
+            android:background="@color/purple" />
         <TextView
             android:text="Oreo"
-            android:background="@color/purple_200" />
+            android:background="@color/purple" />
     </TableRow>
 </TableLayout>
