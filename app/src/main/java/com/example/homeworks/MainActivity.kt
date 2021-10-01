@@ -15,4 +15,10 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this, com.example.homeworks.lesson3.MainActivity::class.java)
         startActivity(intent)
     }
+
+    fun btnLesson4P1Click(view: android.view.View) {
+        var intent = Intent(this, com.example.homeworks.lesson4.Problem1::class.java)
+        startActivity(intent)
+    }
+    fun btnLesson4P2Click(view: android.view.View) {}
 }

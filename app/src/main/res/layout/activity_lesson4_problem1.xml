@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:id="@+id/tableLayoutLesson4Problem1"
+    tools:context=".lesson4.Problem1">
+
+    <TableRow android:padding="5dp">
+        <EditText
+            android:id="@+id/txtAndroidVersion"
+            android:layout_width="match_parent"
+            android:hint="Enter android version"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <EditText
+            android:id="@+id/txtAndroidCodeName"
+            android:layout_width="match_parent"
+            android:hint="Enter android code name"
+            android:layout_span="2"
+            />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="Add"
+            android:onClick="btnAdd"
+            android:layout_span="2" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:text="Version"
+            android:background="@color/purple_200" />
+        <TextView
+            android:text="Code Name"
+            android:background="@color/purple_200" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:text="Android 9"
+            android:background="@color/purple_200" />
+        <TextView
+            android:text="Pie"
+            android:background="@color/purple_200" />
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <TextView
+            android:text="Android 8"
+            android:background="@color/purple_200" />
+        <TextView
+            android:text="Oreo"
+            android:background="@color/purple_200" />
+    </TableRow>
+</TableLayout>
