@@ -41,4 +41,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLesson3"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnLesson5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Lesson5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLesson3"
+        android:onClick="btnLesson5Click" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

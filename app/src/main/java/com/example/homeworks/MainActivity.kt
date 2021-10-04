@@ -24,4 +24,9 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this, com.example.homeworks.lesson4.Problem2::class.java)
         startActivity(intent)
     }
+
+    fun btnLesson5Click(view: android.view.View) {
+        var intent = Intent(this, com.example.homeworks.lesson5.MainActivity::class.java)
+        startActivity(intent)
+    }
 }

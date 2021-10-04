@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson5.ShoppingCategory">
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:text="Welcome"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/lbUserName"
+            android:textColor="@color/black"
+            android:textAlignment="textStart" />
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+        <LinearLayout android:orientation="vertical">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/electronics"
+                android:clickable="true"
+                android:onClick="btnElectronicsClick"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Electronics"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/clothing"
+                android:clickable="true"
+                android:onClick="btnClothingClick"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Clothing"/>
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:padding="5dp">
+        <LinearLayout android:orientation="vertical">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/beauty"
+                android:clickable="true"
+                android:onClick="btnBeautyClick"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Beauty"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/food"
+                android:clickable="true"
+                android:onClick="btnFoodClick"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="Food"/>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

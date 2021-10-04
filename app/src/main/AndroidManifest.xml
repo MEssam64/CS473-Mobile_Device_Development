@@ -10,9 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homeworks">
         <activity
-            android:name=".lesson4.Problem2"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name=".lesson5.NewUser"
             android:exported="true" />
+        <activity
+            android:name=".lesson5.ShoppingCategory"
+            android:exported="true" />
+        <activity
+            android:name=".lesson5.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lesson4.Problem2"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".lesson4.Problem1"
             android:exported="true" />
