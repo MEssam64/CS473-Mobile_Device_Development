@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,19 @@ class MainActivity : AppCompatActivity() {
 
     fun btnLesson5Click(view: android.view.View) {
         var intent = Intent(this, com.example.homeworks.lesson5.MainActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun btnLesson6P1Click(view: android.view.View) {
+        var intent = Intent(this, com.example.homeworks.lesson6.Problem1::class.java)
+        startActivity(intent)
+    }
+    fun btnLesson6P2Click(view: android.view.View) {
+        var intent = Intent(this, com.example.homeworks.lesson6.ShoppingCategory::class.java)
+        startActivity(intent)
+    }
+    fun btnLesson6P3Click(view: android.view.View) {
+        var intent = Intent(this, com.example.homeworks.lesson6.ShoppingCategory::class.java)
         startActivity(intent)
     }
 }

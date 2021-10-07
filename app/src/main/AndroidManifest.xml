@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homeworks">
         <activity
+            android:name=".lesson6.ItemDetails"
+            android:exported="true" />
+        <activity
+            android:name=".lesson6.Problem3"
+            android:exported="true" />
+        <activity
+            android:name=".lesson6.Problem2"
+            android:exported="true" />
+        <activity
+            android:name=".lesson6.ShoppingCategory"
+            android:exported="true" />
+        <activity
+            android:name=".lesson6.Problem1"
+            android:exported="true" />
+        <activity
             android:name=".lesson5.NewUser"
             android:exported="true" />
         <activity
@@ -18,10 +33,12 @@
         <activity
             android:name=".lesson5.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.SENDTO" />
+
                 <data android:scheme="mailto" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
